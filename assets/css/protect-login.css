@@ -1,0 +1,76 @@
+.protect-login-no-blocked-ips
+{
+	padding: 5px 10px;
+	width: 90%;
+	background-color: #ffffff;
+	border-style: solid;
+	border-color: #00a32a;
+	border-width: 1px;
+	font-weight: bold;
+	font-size: 12pt;
+}
+
+#dashboard_right_now .protect-login-locked-out-addresses a:before {
+
+	content: "\f334";
+}
+
+
+#protect_login_blocked_ip_table tbody tr {
+	vertical-align: top;
+}
+
+#protect_login_blocked_ip_table tbody tr td {
+	padding-right: 50px;
+}
+
+.protect_login_item_container {
+	display: flex;
+	background-color: #fcfcfc;
+	padding: 24px 15px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #c0c0c0;
+	border-radius: 3px;
+	box-shadow: 5px 5px 5px #e0e0e0;
+}
+
+.protect_login_item_container .protect_login_rcp_title {
+	margin: 0 0 24px 0;
+}
+
+.protect_login_item_container .protect_login_rcp_description {
+	margin-top: 0;
+	margin-bottom: 32px;
+}
+
+.protect_login_rcp_image {
+	width: 135px;
+	padding: 0 25px;
+}
+
+.protect_login_rcp--righ {
+	display: flex;
+	flex-direction: column;
+	vertical-align: top;
+	text-align: left;
+}
+
+#protect-login-settings-readonly-table td {
+	padding-right: 10px;
+}
+
+#protect-login-readonly-reason {
+	padding: 5px 10px;
+	width: 90%;
+	background-color: #ffffff;
+	border-style: solid;
+	border-color: #00a32a;
+	border-width: 1px;
+	font-weight: bold;
+	font-size: 12pt;
+}
+
+#protect-login-settings-readonly-table tr td:first-child {
+	font-weight: bold;
+}
